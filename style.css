@@ -1,0 +1,69 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Styling the form container */
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling for alignment */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styling table cells */
+td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+/* Label styling */
+label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+input[type="radio"],
+input[type="checkbox"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Styling the submit button */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
